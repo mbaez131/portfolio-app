@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 .about-me {
+    text-align: left;
+}
+
+.landing-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5rem;
+}
+
+.about-header {
+    font-size: 40px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.about-text {
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.skill-header {
     text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    margin-top: -80px;
+}
+.skill-text {
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
 }

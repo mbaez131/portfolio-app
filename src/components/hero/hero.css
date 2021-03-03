@@ -4,12 +4,16 @@ body {
 
 
 .hero-image {
-    background-image: url("../../img/about.JPG");
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 94vh;
-    width: 40vw;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-image: url("../../assets/about.JPG"); */
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* 94vh
+    40vw */
+    height: 70vh; 
+    width: auto;
+    justify-self: center;
+    border-radius: 10px;
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
    }

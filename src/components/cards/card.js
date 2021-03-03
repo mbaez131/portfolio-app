@@ -1,6 +1,8 @@
 import "./card.css";
-import Data from "../../assets/data/data.json";
-import React, { Component } from "react";
+import Data from "../../assets/data.json";
+import React, { Component, Fragment } from "react";
+import Header from "../headerp/headerp";
+
 
 class Projects extends Component {
     state = {
@@ -12,6 +14,8 @@ class Projects extends Component {
     }
     render() {
         return(
+          <Fragment>
+          <Header/>
     <div className="products-container">
     <div className="product-flexer">
           {this.getFilteredProducts().map((card) => {
@@ -22,15 +26,20 @@ class Projects extends Component {
                   <h3>{card.title}</h3>
                   <p>{card.description}</p>
                   <p>{card.price}</p>
-                  <button className="product-button">Github</button>
+                  <button type="button" onClick={(e) => {
+                    e.preventDefault();
+                  }} className="product-button">Github</button>
                 </div>
               </div>
             );
           })}
         </div>
         </div>
+        </Fragment>
         )
     }
 }
 
 export default Projects;
+
+

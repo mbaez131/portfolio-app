@@ -1,0 +1,74 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Gateway Entry Project",
+            "description": "First project that we were required to create as entry to the Road to Hire program.",
+            "image": "img/colombia.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 2,
+            "title": "Ecommerce Website",
+            "description": "First Ecommerce website I have ever created, having initial versions only using HTML and CSS, later on converting the page to REACT.JS and MYSQL. ",
+            "image": "img/ecommerce.png",
+            "link": "https://github.com/mbaez131/ecomm-frontend"
+        },
+        {
+            "id": 3,
+            "title": "GitHub Card",
+            "description": "An application using an API as well as react to retrieve the username of a specified Github user and their social media.",
+            "image": "img/githubcard.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 4,
+            "title": "Navigation Bar",
+            "description": "A one page program with a unique navbar design.",
+            "image": "img/navbar.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 5,
+            "title": "Pokemon Inquirer",
+            "description": "A really enjoyable simulator using NODEJS and asynchronous JS promises to imitate the turn-based game.",
+            "image": "img/pokemon.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 6,
+            "title": "Restaurant Reservations",
+            "description": "A modern looking restaurant reservation program, built together in class.",
+            "image": "img/restaurant.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 7,
+            "title": "To-Do-App",
+            "description": "An easy To-Do list program that takes in input, and after populating the page.",
+            "image": "img/tasks.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 8,
+            "title": "Tic-Tac-Toe",
+            "description": "An awesome Tic-Tac-Toe game using DOM manipulation as well as REACTJS.",
+            "image": "img/tic-tac-toe.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 9,
+            "title": "Hamburger Navbar",
+            "description": "A navbar design displaying unique functionality on a static page.",
+            "image": "img/hamburger.png",
+            "link": "https://www.github.com/mbaez131"
+        },
+        {
+            "id": 10,
+            "title": "TutorUs",
+            "description": "A collaborative project, using RESTful routes and a custom and external API.",
+            "image": "img/TutorUs.png",
+            "link": "https://github.com/mbaez131/TutorUs"
+        }
+    ]
+}

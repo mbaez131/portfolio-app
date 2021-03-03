@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import "../../components/contact/contact.css"
+import "./contact.css"
 
 
 export default class Contact extends Component {
